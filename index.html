@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="sass/index.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div>
+        <h1>Weather</h1>
+        <div class="form">
+            <input type="text" placeholder="Enter The City" class="inputText">
+        </div>
+        
+        <div class="btnDiv">
+            <button class="btn">Give Data</button>
+        </div>
+    </div>
+
+    <div class="info">
+        <p id="city">City,Country</p>
+        <div class="totalValue">
+            <p id="temp">--</p><i class="fa-regular fa-circle"></i><i class="fa-solid fa-c"></i>
+        </div>
+
+        <p id="weather">Weather</p>
+        <div class="feeling">
+            <p id="felt">Feels Like</p><i class="fa-regular fa-circle"></i><i class="fa-solid fa-c"></i>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
